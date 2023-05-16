@@ -23,6 +23,8 @@ let sueldoNormal = HorasTrabajadas * SueldoHora
 let sueldoExtra = (horasExtra * SueldoHora) * 2
 let sueldoBruto = sueldoExtra + sueldoNormal
 
+alert ("Señor/a: " + NombreyApellido + "\n" + "Trabajaste: " + HorasTrabajadas + "\n" + "Tenes: " + horasExtra + " " + "horas extra" + "\n" + "Tu Sueldo por Hora es: " + SueldoHora + "\n" + "Tu sueldo sin Extra es: " + sueldoNormal + "\n" + "Tu Sueldo Extra es: " + sueldoExtra+ "\n" + "Tu Sueldo Bruto  es: " + sueldoBruto)
+
 
 
 console.log ("Señor/a: " + NombreyApellido)
